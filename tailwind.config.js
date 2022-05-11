@@ -367,7 +367,6 @@ module.exports = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
-        'Poppins',
       ],
       serif: [
         'ui-serif',
@@ -387,6 +386,7 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      Poppins: ['Poppins'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -964,5 +964,5 @@ module.exports = {
     'active',
     'disabled',
   ],
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
