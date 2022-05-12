@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mx-10 mb-2 bg-[#F9FAFB] border-gray-100 border rounded">
+  <div class="flex mx-5 mb-2 bg-[#F9FAFB] border-gray-100 border rounded">
     <div class="w-20 h-20"><img src="../assets/doc.svg" alt="doctor" /></div>
     <div class="ml-4">
       <div>

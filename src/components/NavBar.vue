@@ -1,6 +1,6 @@
 <template>
-  <nav class="mx-10">
-    <div class="flex justify-between mt-10">
+  <nav class="p-10 lg:bg-cyan-700">
+    <div class="flex justify-between">
       <div>logo</div>
       <div
         class="bg-gray-100 w-12 h-10 rounded-lg flex items-center text-center justify-center"

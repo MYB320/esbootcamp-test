@@ -1,42 +1,26 @@
 <template>
-  <div
-    class="flex items-center justify-center flex-col bg-[#F9FAFB] border border-gray-100 rounded-xl h-[484px] w-[348px] my-14 lg:w-[812px] lg:h-[447px] lg:my-0 lg:mr-8"
-  >
-    <div class="flex items-center justify-center flex-col lg:flex-row">
-      <div class="w-32 h-32 my-4 lg:w-[56] lg:h-[56] lg:my-0">
-        <img class="lg:w-[56] lg:h-[56]" src="../assets/doc.svg" alt="doc" />
-      </div>
-      <div>
-        <div class="text-center">
-          <h1 class="text-cyan-700 text-3xl font-semibold mt-1 lg:mt-0">
-            Dr. Amine Mohmaed
-          </h1>
-          <h3 class="text-gray-500 font-medium mt-4 lg:mt-0">
-            <span class="font-semibold">Spécialité: </span>Chirurgie dentaire
-          </h3>
-          <div class="mt-5 lg:mt-3 lg:flex lg:items-center lg:justify-around">
-            <h3 class="text-gray-500 font-light">CHU Mustapha</h3>
-            <h3 class="text-gray-500 text-sm font-light">Alger</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <h3
-          class="text-gray-500 font-light my-8 text-center lg:text-3xl lg:mt-16"
-        >
-          Rating
+  <div class="flex items-center justify-center flex-col my-14">
+    <div class="w-32 h-32 my-4"><img src="../assets/doc.svg" alt="doc" /></div>
+    <div
+      class="bg-[#F9FAFB] border border-gray-100 rounded-xl h-[324px] w-[348px]"
+    >
+      <div class="text-center">
+        <h1 class="text-cyan-700 text-xl font-semibold mt-1">
+          Dr. Amine Mohmaed
+        </h1>
+        <h3 class="text-gray-500 font-medium mt-4">
+          <span class="font-semibold">Spécialité: </span>Chirurgie dentaire
         </h3>
+        <h3 class="text-gray-500 font-light mt-5">CHU Mustapha</h3>
+        <h3 class="text-gray-500 text-sm font-light">Alger</h3>
       </div>
-      <div class="flex mt-2">
+      <div class="flex mt-8">
         <div class="mx-8 text-center">
-          <h3 class="text-gray-500 font-light text-5xl my-2 lg:text-7xl">
-            4.3
-          </h3>
+          <h3 class="text-gray-500 font-light my-1">Rating</h3>
+          <h3 class="text-gray-500 font-light text-5xl my-2">4.3</h3>
           <div class="flex items-center">
             <svg
-              class="w-4 h-4 lg:w-6 lg:h-6 text-yellow-400"
+              class="w-4 h-4 text-yellow-400"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +30,7 @@
               ></path>
             </svg>
             <svg
-              class="w-4 h-4 lg:w-6 lg:h-6 text-yellow-400"
+              class="w-4 h-4 text-yellow-400"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +40,7 @@
               ></path>
             </svg>
             <svg
-              class="w-4 h-4 lg:w-6 lg:h-6 text-yellow-400"
+              class="w-4 h-4 text-yellow-400"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +50,7 @@
               ></path>
             </svg>
             <svg
-              class="w-4 h-4 lg:w-6 lg:h-6 text-yellow-400"
+              class="w-4 h-4 text-yellow-400"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +60,7 @@
               ></path>
             </svg>
             <svg
-              class="w-4 h-4 lg:w-6 lg:h-6 text-gray-300 dark:text-gray-500"
+              class="w-4 h-4 text-gray-300 dark:text-gray-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -86,16 +70,14 @@
               ></path>
             </svg>
           </div>
-          <h3
-            class="text-gray-500 font-light text-left text-xs my-1 lg:text-base"
-          >
+          <h3 class="text-gray-500 font-light text-left text-xs my-1">
             40,000
           </h3>
         </div>
         <div class="mt-4">
           <div class="flex justify-center items-center">
             <h3 class="text-cyan-700 mr-2">5</h3>
-            <div class="w-40 bg-gray-200 rounded-full h-2.5 lg:w-64">
+            <div class="w-40 bg-gray-200 rounded-full h-2.5">
               <div
                 class="h-2.5 rounded-full bg-cyan-700"
                 style="width: 80%"
@@ -104,7 +86,7 @@
           </div>
           <div class="flex justify-center items-center">
             <h3 class="text-cyan-700 mr-2">4</h3>
-            <div class="w-40 bg-gray-200 rounded-full h-2.5 lg:w-64">
+            <div class="w-40 bg-gray-200 rounded-full h-2.5">
               <div
                 class="h-2.5 rounded-full bg-cyan-700"
                 style="width: 10%"
@@ -113,7 +95,7 @@
           </div>
           <div class="flex justify-center items-center">
             <h3 class="text-cyan-700 mr-2">3</h3>
-            <div class="w-40 bg-gray-200 rounded-full h-2.5 lg:w-64">
+            <div class="w-40 bg-gray-200 rounded-full h-2.5">
               <div
                 class="h-2.5 rounded-full bg-cyan-700"
                 style="width: 50%"
@@ -122,7 +104,7 @@
           </div>
           <div class="flex justify-center items-center">
             <h3 class="text-cyan-700 mr-2">2</h3>
-            <div class="w-40 bg-gray-200 rounded-full h-2.5 lg:w-64">
+            <div class="w-40 bg-gray-200 rounded-full h-2.5">
               <div
                 class="h-2.5 rounded-full bg-cyan-700"
                 style="width: 90%"
@@ -131,7 +113,7 @@
           </div>
           <div class="flex justify-center items-center">
             <h3 class="text-cyan-700 mr-2">1</h3>
-            <div class="w-40 bg-gray-200 rounded-full h-2.5 lg:w-64">
+            <div class="w-40 bg-gray-200 rounded-full h-2.5">
               <div
                 class="h-2.5 rounded-full bg-cyan-700"
                 style="width: 30%"

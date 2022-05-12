@@ -2,8 +2,10 @@
   <div>
     <NavBar />
     <SearchArea />
-    <div v-for="i in [1, 2, 3, 4, 5, 6, 7]" :key="i">
-      <CardItem :key="i" />
+    <div class="grid lg:grid-cols-3 lg:gap-1">
+      <div v-for="i in [1, 2, 3, 4, 5, 6, 7]" :key="i">
+        <CardItem />
+      </div>
     </div>
   </div>
 </template>
