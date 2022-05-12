@@ -1,5 +1,8 @@
 <template>
-  <div class="flex items-center justify-center flex-col my-1">
+  <div
+    class="flex items-center justify-center flex-col my-1"
+    @click="ShowDetails"
+  >
     <div class="w-32 h-32 my-4"><img src="../assets/doc.svg" alt="doc" /></div>
     <div
       class="bg-[#F9FAFB] border border-gray-100 rounded-xl h-[324px] w-[348px]"
@@ -127,7 +130,15 @@
 </template>
 
 <script>
+import router from '../router'
+
 export default {
   name: 'DetailCard',
+  setup() {
+    const ShowDetails = () => {
+      router.push('/details')
+    }
+    return { ShowDetails }
+  },
 }
 </script>

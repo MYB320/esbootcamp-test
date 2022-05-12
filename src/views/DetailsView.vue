@@ -9,6 +9,7 @@
             class="w-[348px] h-[57px] bg-cyan-700 rounded-full text-white"
             type="button"
             data-modal-toggle="defaultModal"
+            @click="ShowDetails"
           >
             Confirmer
           </button>
@@ -36,8 +37,17 @@ import DetailCard from '@/components/DetailCard'
 import SimilarItem from '@/components/SimilarItem'
 import RatingItem from '@/components/RatingItem'
 import BookingPopup from '@/components/BookingPopup'
+
+import router from '../router'
+
 export default {
   name: 'DetailsView',
   components: { NavBar, DetailCard, SimilarItem, RatingItem, BookingPopup },
+  setup() {
+    const ShowDetails = () => {
+      router.push('/booking')
+    }
+    return { ShowDetails }
+  },
 }
 </script>
